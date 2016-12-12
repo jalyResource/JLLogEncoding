@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3E200B1DFEA89F00B873AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E200A1DFEA89F00B873AB /* main.m */; };
+		DB3E200E1DFEA89F00B873AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E200D1DFEA89F00B873AB /* AppDelegate.m */; };
+		DB3E20111DFEA89F00B873AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20101DFEA89F00B873AB /* ViewController.m */; };
+		DB3E20141DFEA89F00B873AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E20121DFEA89F00B873AB /* Main.storyboard */; };
+		DB3E20161DFEA89F00B873AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3E20151DFEA89F00B873AB /* Assets.xcassets */; };
+		DB3E20191DFEA89F00B873AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E20171DFEA89F00B873AB /* LaunchScreen.storyboard */; };
+		DB3E20241DFEA89F00B873AB /* JLLogEncodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20231DFEA89F00B873AB /* JLLogEncodingTests.m */; };
+		DB3E202F1DFEA89F00B873AB /* JLLogEncodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E202E1DFEA89F00B873AB /* JLLogEncodingUITests.m */; };
+		DB3E203F1DFEA8BF00B873AB /* NSDictionary+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */; };
+		DB3E20421DFEB87B00B873AB /* NSArray+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20411DFEB87B00B873AB /* NSArray+extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3E20201DFEA89F00B873AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3E1FFE1DFEA89F00B873AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3E20051DFEA89F00B873AB;
+			remoteInfo = JLLogEncoding;
+		};
+		DB3E202B1DFEA89F00B873AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3E1FFE1DFEA89F00B873AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3E20051DFEA89F00B873AB;
+			remoteInfo = JLLogEncoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3E20061DFEA89F00B873AB /* JLLogEncoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLLogEncoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3E200A1DFEA89F00B873AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB3E200C1DFEA89F00B873AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB3E200D1DFEA89F00B873AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB3E200F1DFEA89F00B873AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB3E20101DFEA89F00B873AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB3E20131DFEA89F00B873AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3E20151DFEA89F00B873AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3E20181DFEA89F00B873AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3E201A1DFEA89F00B873AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3E201F1DFEA89F00B873AB /* JLLogEncodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLLogEncodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3E20231DFEA89F00B873AB /* JLLogEncodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLLogEncodingTests.m; sourceTree = "<group>"; };
+		DB3E20251DFEA89F00B873AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3E202A1DFEA89F00B873AB /* JLLogEncodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLLogEncodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3E202E1DFEA89F00B873AB /* JLLogEncodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLLogEncodingUITests.m; sourceTree = "<group>"; };
+		DB3E20301DFEA89F00B873AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extension.h"; sourceTree = "<group>"; };
+		DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extension.m"; sourceTree = "<group>"; };
+		DB3E20401DFEB87B00B873AB /* NSArray+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+extension.h"; sourceTree = "<group>"; };
+		DB3E20411DFEB87B00B873AB /* NSArray+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3E20031DFEA89F00B873AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3E201C1DFEA89F00B873AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3E20271DFEA89F00B873AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3E1FFD1DFEA89F00B873AB = {
+			isa = PBXGroup;
+			children = (
+				DB3E20081DFEA89F00B873AB /* JLLogEncoding */,
+				DB3E20221DFEA89F00B873AB /* JLLogEncodingTests */,
+				DB3E202D1DFEA89F00B873AB /* JLLogEncodingUITests */,
+				DB3E20071DFEA89F00B873AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3E20071DFEA89F00B873AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E20061DFEA89F00B873AB /* JLLogEncoding.app */,
+				DB3E201F1DFEA89F00B873AB /* JLLogEncodingTests.xctest */,
+				DB3E202A1DFEA89F00B873AB /* JLLogEncodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3E20081DFEA89F00B873AB /* JLLogEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E203C1DFEA8AF00B873AB /* extensionLib */,
+				DB3E200C1DFEA89F00B873AB /* AppDelegate.h */,
+				DB3E200D1DFEA89F00B873AB /* AppDelegate.m */,
+				DB3E200F1DFEA89F00B873AB /* ViewController.h */,
+				DB3E20101DFEA89F00B873AB /* ViewController.m */,
+				DB3E20121DFEA89F00B873AB /* Main.storyboard */,
+				DB3E20151DFEA89F00B873AB /* Assets.xcassets */,
+				DB3E20171DFEA89F00B873AB /* LaunchScreen.storyboard */,
+				DB3E201A1DFEA89F00B873AB /* Info.plist */,
+				DB3E20091DFEA89F00B873AB /* Supporting Files */,
+			);
+			path = JLLogEncoding;
+			sourceTree = "<group>";
+		};
+		DB3E20091DFEA89F00B873AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E200A1DFEA89F00B873AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB3E20221DFEA89F00B873AB /* JLLogEncodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E20231DFEA89F00B873AB /* JLLogEncodingTests.m */,
+				DB3E20251DFEA89F00B873AB /* Info.plist */,
+			);
+			path = JLLogEncodingTests;
+			sourceTree = "<group>";
+		};
+		DB3E202D1DFEA89F00B873AB /* JLLogEncodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E202E1DFEA89F00B873AB /* JLLogEncodingUITests.m */,
+				DB3E20301DFEA89F00B873AB /* Info.plist */,
+			);
+			path = JLLogEncodingUITests;
+			sourceTree = "<group>";
+		};
+		DB3E203C1DFEA8AF00B873AB /* extensionLib */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */,
+				DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */,
+				DB3E20401DFEB87B00B873AB /* NSArray+extension.h */,
+				DB3E20411DFEB87B00B873AB /* NSArray+extension.m */,
+			);
+			name = extensionLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3E20051DFEA89F00B873AB /* JLLogEncoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3E20331DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncoding" */;
+			buildPhases = (
+				DB3E20021DFEA89F00B873AB /* Sources */,
+				DB3E20031DFEA89F00B873AB /* Frameworks */,
+				DB3E20041DFEA89F00B873AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLLogEncoding;
+			productName = JLLogEncoding;
+			productReference = DB3E20061DFEA89F00B873AB /* JLLogEncoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3E201E1DFEA89F00B873AB /* JLLogEncodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3E20361DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncodingTests" */;
+			buildPhases = (
+				DB3E201B1DFEA89F00B873AB /* Sources */,
+				DB3E201C1DFEA89F00B873AB /* Frameworks */,
+				DB3E201D1DFEA89F00B873AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3E20211DFEA89F00B873AB /* PBXTargetDependency */,
+			);
+			name = JLLogEncodingTests;
+			productName = JLLogEncodingTests;
+			productReference = DB3E201F1DFEA89F00B873AB /* JLLogEncodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3E20291DFEA89F00B873AB /* JLLogEncodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3E20391DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncodingUITests" */;
+			buildPhases = (
+				DB3E20261DFEA89F00B873AB /* Sources */,
+				DB3E20271DFEA89F00B873AB /* Frameworks */,
+				DB3E20281DFEA89F00B873AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3E202C1DFEA89F00B873AB /* PBXTargetDependency */,
+			);
+			name = JLLogEncodingUITests;
+			productName = JLLogEncodingUITests;
+			productReference = DB3E202A1DFEA89F00B873AB /* JLLogEncodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3E1FFE1DFEA89F00B873AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kongfz;
+				TargetAttributes = {
+					DB3E20051DFEA89F00B873AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					DB3E201E1DFEA89F00B873AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB3E20051DFEA89F00B873AB;
+					};
+					DB3E20291DFEA89F00B873AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB3E20051DFEA89F00B873AB;
+					};
+				};
+			};
+			buildConfigurationList = DB3E20011DFEA89F00B873AB /* Build configuration list for PBXProject "JLLogEncoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3E1FFD1DFEA89F00B873AB;
+			productRefGroup = DB3E20071DFEA89F00B873AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3E20051DFEA89F00B873AB /* JLLogEncoding */,
+				DB3E201E1DFEA89F00B873AB /* JLLogEncodingTests */,
+				DB3E20291DFEA89F00B873AB /* JLLogEncodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3E20041DFEA89F00B873AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3E20191DFEA89F00B873AB /* LaunchScreen.storyboard in Resources */,
+				DB3E20161DFEA89F00B873AB /* Assets.xcassets in Resources */,
+				DB3E20141DFEA89F00B873AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3E201D1DFEA89F00B873AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3E20281DFEA89F00B873AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3E20021DFEA89F00B873AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3E20421DFEB87B00B873AB /* NSArray+extension.m in Sources */,
+				DB3E20111DFEA89F00B873AB /* ViewController.m in Sources */,
+				DB3E200E1DFEA89F00B873AB /* AppDelegate.m in Sources */,
+				DB3E203F1DFEA8BF00B873AB /* NSDictionary+extension.m in Sources */,
+				DB3E200B1DFEA89F00B873AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3E201B1DFEA89F00B873AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3E20241DFEA89F00B873AB /* JLLogEncodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3E20261DFEA89F00B873AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3E202F1DFEA89F00B873AB /* JLLogEncodingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3E20211DFEA89F00B873AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3E20051DFEA89F00B873AB /* JLLogEncoding */;
+			targetProxy = DB3E20201DFEA89F00B873AB /* PBXContainerItemProxy */;
+		};
+		DB3E202C1DFEA89F00B873AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3E20051DFEA89F00B873AB /* JLLogEncoding */;
+			targetProxy = DB3E202B1DFEA89F00B873AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3E20121DFEA89F00B873AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3E20131DFEA89F00B873AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3E20171DFEA89F00B873AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3E20181DFEA89F00B873AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3E20311DFEA89F00B873AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB3E20321DFEA89F00B873AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3E20341DFEA89F00B873AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLLogEncoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.JLLogEncoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB3E20351DFEA89F00B873AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLLogEncoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.JLLogEncoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB3E20371DFEA89F00B873AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLLogEncodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.JLLogEncodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLLogEncoding.app/JLLogEncoding";
+			};
+			name = Debug;
+		};
+		DB3E20381DFEA89F00B873AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLLogEncodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.JLLogEncodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLLogEncoding.app/JLLogEncoding";
+			};
+			name = Release;
+		};
+		DB3E203A1DFEA89F00B873AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLLogEncodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.JLLogEncodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLLogEncoding;
+			};
+			name = Debug;
+		};
+		DB3E203B1DFEA89F00B873AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLLogEncodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongfz.JLLogEncodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLLogEncoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3E20011DFEA89F00B873AB /* Build configuration list for PBXProject "JLLogEncoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3E20311DFEA89F00B873AB /* Debug */,
+				DB3E20321DFEA89F00B873AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3E20331DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3E20341DFEA89F00B873AB /* Debug */,
+				DB3E20351DFEA89F00B873AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3E20361DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3E20371DFEA89F00B873AB /* Debug */,
+				DB3E20381DFEA89F00B873AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3E20391DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3E203A1DFEA89F00B873AB /* Debug */,
+				DB3E203B1DFEA89F00B873AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3E1FFE1DFEA89F00B873AB /* Project object */;
+}
