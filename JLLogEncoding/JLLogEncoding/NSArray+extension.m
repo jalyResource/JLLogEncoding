@@ -25,7 +25,7 @@
 /**
  将数组转化成字符串，文字格式UTF8,并且格式化
  
- @param level 当前数组的层级，最少为 1，代表最外层字典
+ @param level 当前数组的层级，最少为 1，代表最外层
  @return 格式化的字符串
  */
 - (NSString *)descriptionWithLevel:(int)level {
