@@ -10,15 +10,20 @@
 
 @implementation NSDictionary (extension)
 - (NSString *)description {
-    return [self descriptionWithLevel:1];
+    return [self descToUTF8];
 }
 
 - (NSString *)descriptionWithLocale:(nullable id)locale {
-    return [self descriptionWithLevel:1];
+    return [self descToUTF8];
 }
-- (NSString *)descriptionWithLocale:(nullable id)locale indent:(NSUInteger)level {
-    return [self descriptionWithLevel:(int)level];
+
+- (NSString *)descToUTF8 {
+    NSData *data = [NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:nil];
+    NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    return str;
 }
+
+
 
 
 /**
@@ -26,7 +31,7 @@
  
  @param level 当前字典的层级，最少为 1，代表最外层字典
  @return 格式化的字符串
- */
+
 - (NSString *)descriptionWithLevel:(int)level {
     NSString *subSpace = [self getSpaceWithLevel:level];
     NSString *space = [self getSpaceWithLevel:level - 1];
@@ -59,14 +64,14 @@
     [retString appendString:[NSString stringWithFormat:@"\n%@}", space]];
     return retString;
 }
-
+ */
 
 /**
  根据层级，返回前面的空格占位符
  
  @param level 字典的层级
  @return 占位空格
- */
+
 - (NSString *)getSpaceWithLevel:(int)level {
     NSMutableString *mustr = [[NSMutableString alloc] init];
     for (int i=0; i<level; i++) {
@@ -74,7 +79,7 @@
     }
     return mustr;
 }
-
+ */
 
 @end
 

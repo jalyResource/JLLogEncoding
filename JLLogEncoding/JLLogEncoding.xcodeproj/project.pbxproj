@@ -16,7 +16,6 @@
 		DB3E20241DFEA89F00B873AB /* JLLogEncodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20231DFEA89F00B873AB /* JLLogEncodingTests.m */; };
 		DB3E202F1DFEA89F00B873AB /* JLLogEncodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E202E1DFEA89F00B873AB /* JLLogEncodingUITests.m */; };
 		DB3E203F1DFEA8BF00B873AB /* NSDictionary+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */; };
-		DB3E20421DFEB87B00B873AB /* NSArray+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20411DFEB87B00B873AB /* NSArray+extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,6 @@
 		DB3E20301DFEA89F00B873AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extension.h"; sourceTree = "<group>"; };
 		DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extension.m"; sourceTree = "<group>"; };
-		DB3E20401DFEB87B00B873AB /* NSArray+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+extension.h"; sourceTree = "<group>"; };
-		DB3E20411DFEB87B00B873AB /* NSArray+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +149,6 @@
 			children = (
 				DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */,
 				DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */,
-				DB3E20401DFEB87B00B873AB /* NSArray+extension.h */,
-				DB3E20411DFEB87B00B873AB /* NSArray+extension.m */,
 			);
 			name = extensionLib;
 			sourceTree = "<group>";
@@ -291,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3E20421DFEB87B00B873AB /* NSArray+extension.m in Sources */,
 				DB3E20111DFEA89F00B873AB /* ViewController.m in Sources */,
 				DB3E200E1DFEA89F00B873AB /* AppDelegate.m in Sources */,
 				DB3E203F1DFEA8BF00B873AB /* NSDictionary+extension.m in Sources */,
