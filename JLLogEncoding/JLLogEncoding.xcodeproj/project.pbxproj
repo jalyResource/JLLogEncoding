@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		519DAC3C1A70A34DE795B4E0 /* libPods-JLLogEncodingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F897606BA253A060EE9703D1 /* libPods-JLLogEncodingUITests.a */; };
+		C64C2988290EED6C4FBD6344 /* libPods-JLLogEncodingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5620DBAD8ECD977E88E89955 /* libPods-JLLogEncodingTests.a */; };
+		CB4D7287F6287EC6247FF031 /* libPods-JLLogEncoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCF75517927DE69B562641F /* libPods-JLLogEncoding.a */; };
 		DB3E200B1DFEA89F00B873AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E200A1DFEA89F00B873AB /* main.m */; };
 		DB3E200E1DFEA89F00B873AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E200D1DFEA89F00B873AB /* AppDelegate.m */; };
 		DB3E20111DFEA89F00B873AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20101DFEA89F00B873AB /* ViewController.m */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A6F6EADE93B90075C07717 /* Pods-JLLogEncodingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingUITests/Pods-JLLogEncodingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E643525F306080BB30C3308 /* Pods-JLLogEncodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingTests/Pods-JLLogEncodingTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DF017D246BE1D44B515040E /* Pods-JLLogEncodingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingUITests/Pods-JLLogEncodingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5620DBAD8ECD977E88E89955 /* libPods-JLLogEncodingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLLogEncodingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCF75517927DE69B562641F /* libPods-JLLogEncoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLLogEncoding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AC1550BCC193C083F55631 /* Pods-JLLogEncoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncoding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncoding/Pods-JLLogEncoding.debug.xcconfig"; sourceTree = "<group>"; };
 		DB3E20061DFEA89F00B873AB /* JLLogEncoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLLogEncoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3E200A1DFEA89F00B873AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB3E200C1DFEA89F00B873AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +66,9 @@
 		DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extension.m"; sourceTree = "<group>"; };
 		DB3E20401DFEB87B00B873AB /* NSArray+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+extension.h"; sourceTree = "<group>"; };
 		DB3E20411DFEB87B00B873AB /* NSArray+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+extension.m"; sourceTree = "<group>"; };
+		E492FA3EEE68CA645F4BE209 /* Pods-JLLogEncodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingTests/Pods-JLLogEncodingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F80C410769FD5BCD7A786058 /* Pods-JLLogEncoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncoding.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncoding/Pods-JLLogEncoding.release.xcconfig"; sourceTree = "<group>"; };
+		F897606BA253A060EE9703D1 /* libPods-JLLogEncodingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLLogEncodingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4D7287F6287EC6247FF031 /* libPods-JLLogEncoding.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64C2988290EED6C4FBD6344 /* libPods-JLLogEncodingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519DAC3C1A70A34DE795B4E0 /* libPods-JLLogEncodingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A736F0F2225F406CC5AE88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCF75517927DE69B562641F /* libPods-JLLogEncoding.a */,
+				5620DBAD8ECD977E88E89955 /* libPods-JLLogEncodingTests.a */,
+				F897606BA253A060EE9703D1 /* libPods-JLLogEncodingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34006244C953A04EDD9D8714 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC1550BCC193C083F55631 /* Pods-JLLogEncoding.debug.xcconfig */,
+				F80C410769FD5BCD7A786058 /* Pods-JLLogEncoding.release.xcconfig */,
+				E492FA3EEE68CA645F4BE209 /* Pods-JLLogEncodingTests.debug.xcconfig */,
+				3E643525F306080BB30C3308 /* Pods-JLLogEncodingTests.release.xcconfig */,
+				4DF017D246BE1D44B515040E /* Pods-JLLogEncodingUITests.debug.xcconfig */,
+				17A6F6EADE93B90075C07717 /* Pods-JLLogEncodingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DB3E1FFD1DFEA89F00B873AB = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +129,8 @@
 				DB3E20221DFEA89F00B873AB /* JLLogEncodingTests */,
 				DB3E202D1DFEA89F00B873AB /* JLLogEncodingUITests */,
 				DB3E20071DFEA89F00B873AB /* Products */,
+				34006244C953A04EDD9D8714 /* Pods */,
+				24A736F0F2225F406CC5AE88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB3E20331DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncoding" */;
 			buildPhases = (
+				FE234662830F390022A8DE03 /* [CP] Check Pods Manifest.lock */,
 				DB3E20021DFEA89F00B873AB /* Sources */,
 				DB3E20031DFEA89F00B873AB /* Frameworks */,
 				DB3E20041DFEA89F00B873AB /* Resources */,
+				C0410393A21EC04B693798CB /* [CP] Embed Pods Frameworks */,
+				6400935BDA187A677B16E8F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB3E20361DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncodingTests" */;
 			buildPhases = (
+				9CB0FE062FA009D68E5914CA /* [CP] Check Pods Manifest.lock */,
 				DB3E201B1DFEA89F00B873AB /* Sources */,
 				DB3E201C1DFEA89F00B873AB /* Frameworks */,
 				DB3E201D1DFEA89F00B873AB /* Resources */,
+				5545C269FBAB96A24C149679 /* [CP] Embed Pods Frameworks */,
+				373140D5D6B34EA2CE6C935F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB3E20391DFEA89F00B873AB /* Build configuration list for PBXNativeTarget "JLLogEncodingUITests" */;
 			buildPhases = (
+				62C18346E8912637EFCB7CC0 /* [CP] Check Pods Manifest.lock */,
 				DB3E20261DFEA89F00B873AB /* Sources */,
 				DB3E20271DFEA89F00B873AB /* Frameworks */,
 				DB3E20281DFEA89F00B873AB /* Resources */,
+				3E80DEC74DFD7C81306AF352 /* [CP] Embed Pods Frameworks */,
+				498A396E4D1AEEA25E129DE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +334,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		373140D5D6B34EA2CE6C935F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLLogEncodingTests/Pods-JLLogEncodingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E80DEC74DFD7C81306AF352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLLogEncodingUITests/Pods-JLLogEncodingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		498A396E4D1AEEA25E129DE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLLogEncodingUITests/Pods-JLLogEncodingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5545C269FBAB96A24C149679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLLogEncodingTests/Pods-JLLogEncodingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C18346E8912637EFCB7CC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6400935BDA187A677B16E8F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLLogEncoding/Pods-JLLogEncoding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB0FE062FA009D68E5914CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0410393A21EC04B693798CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLLogEncoding/Pods-JLLogEncoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE234662830F390022A8DE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB3E20021DFEA89F00B873AB /* Sources */ = {
@@ -440,6 +627,7 @@
 		};
 		DB3E20341DFEA89F00B873AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AC1550BCC193C083F55631 /* Pods-JLLogEncoding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JLLogEncoding/Info.plist;
@@ -451,6 +639,7 @@
 		};
 		DB3E20351DFEA89F00B873AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80C410769FD5BCD7A786058 /* Pods-JLLogEncoding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JLLogEncoding/Info.plist;
@@ -462,6 +651,7 @@
 		};
 		DB3E20371DFEA89F00B873AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E492FA3EEE68CA645F4BE209 /* Pods-JLLogEncodingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JLLogEncodingTests/Info.plist;
@@ -474,6 +664,7 @@
 		};
 		DB3E20381DFEA89F00B873AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E643525F306080BB30C3308 /* Pods-JLLogEncodingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JLLogEncodingTests/Info.plist;
@@ -486,6 +677,7 @@
 		};
 		DB3E203A1DFEA89F00B873AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF017D246BE1D44B515040E /* Pods-JLLogEncodingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JLLogEncodingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -497,6 +689,7 @@
 		};
 		DB3E203B1DFEA89F00B873AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A6F6EADE93B90075C07717 /* Pods-JLLogEncodingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JLLogEncodingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -10,14 +10,30 @@
 
 @implementation NSDictionary (extension)
 - (NSString *)description {
-    return [self descriptionWithLevel:1];
+//    return [self descriptionWithLevel:1];
+    return [self getUTF8String];
 }
 
 - (NSString *)descriptionWithLocale:(nullable id)locale {
-    return [self descriptionWithLevel:1];
+//    return [self descriptionWithLevel:1];
+    return [self getUTF8String];
 }
 - (NSString *)descriptionWithLocale:(nullable id)locale indent:(NSUInteger)level {
-    return [self descriptionWithLevel:(int)level];
+//    return [self descriptionWithLevel:(int)level];
+    return [self getUTF8String];
+}
+
+- (NSString *)getUTF8String {
+    if ([self isKindOfClass:[NSDictionary class]] == NO) {
+        return @"";
+    }
+    NSError *error = nil;
+    NSData *data = [NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:&error];
+    if (error) {
+        return @"";
+    }
+    NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    return str;
 }
 
 
