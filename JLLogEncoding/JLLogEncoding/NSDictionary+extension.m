@@ -10,17 +10,14 @@
 
 @implementation NSDictionary (extension)
 - (NSString *)description {
-//    return [self descriptionWithLevel:1];
-    return [self getUTF8String];
+    return [self descriptionWithLevel:1];
 }
 
 - (NSString *)descriptionWithLocale:(nullable id)locale {
-//    return [self descriptionWithLevel:1];
-    return [self getUTF8String];
+    return [self descriptionWithLevel:1];
 }
 - (NSString *)descriptionWithLocale:(nullable id)locale indent:(NSUInteger)level {
-//    return [self descriptionWithLevel:(int)level];
-    return [self getUTF8String];
+    return [self descriptionWithLevel:(int)level];
 }
 
 - (NSString *)getUTF8String {

@@ -9,18 +9,18 @@
 #import "NSArray+extension.h"
 
 @implementation NSArray (extension)
-//- (NSString *)description {
-//    return [self descriptionWithLevel:1];
-//}
-//
-//-(NSString *)descriptionWithLocale:(id)locale
-//{
-//    return [self descriptionWithLevel:1];
-//}
-//
-//- (NSString *)descriptionWithLocale:(nullable id)locale indent:(NSUInteger)level {
-//    return [self descriptionWithLevel:(int)level];
-//}
+- (NSString *)description {
+    return [self descriptionWithLevel:1];
+}
+
+-(NSString *)descriptionWithLocale:(id)locale
+{
+    return [self descriptionWithLevel:1];
+}
+
+- (NSString *)descriptionWithLocale:(nullable id)locale indent:(NSUInteger)level {
+    return [self descriptionWithLevel:(int)level];
+}
 
 /**
  将数组转化成字符串，文字格式UTF8,并且格式化
