@@ -10,6 +10,7 @@
 		519DAC3C1A70A34DE795B4E0 /* libPods-JLLogEncodingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F897606BA253A060EE9703D1 /* libPods-JLLogEncodingUITests.a */; };
 		C64C2988290EED6C4FBD6344 /* libPods-JLLogEncodingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5620DBAD8ECD977E88E89955 /* libPods-JLLogEncodingTests.a */; };
 		CB4D7287F6287EC6247FF031 /* libPods-JLLogEncoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCF75517927DE69B562641F /* libPods-JLLogEncoding.a */; };
+		CE0750E31E824A810040EF1C /* NSObject+logVarMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0750E21E824A810040EF1C /* NSObject+logVarMethod.m */; };
 		DB3E200B1DFEA89F00B873AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E200A1DFEA89F00B873AB /* main.m */; };
 		DB3E200E1DFEA89F00B873AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E200D1DFEA89F00B873AB /* AppDelegate.m */; };
 		DB3E20111DFEA89F00B873AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20101DFEA89F00B873AB /* ViewController.m */; };
@@ -46,6 +47,8 @@
 		5620DBAD8ECD977E88E89955 /* libPods-JLLogEncodingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLLogEncodingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCF75517927DE69B562641F /* libPods-JLLogEncoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLLogEncoding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AC1550BCC193C083F55631 /* Pods-JLLogEncoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncoding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncoding/Pods-JLLogEncoding.debug.xcconfig"; sourceTree = "<group>"; };
+		CE0750E11E824A810040EF1C /* NSObject+logVarMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+logVarMethod.h"; sourceTree = "<group>"; };
+		CE0750E21E824A810040EF1C /* NSObject+logVarMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+logVarMethod.m"; sourceTree = "<group>"; };
 		DB3E20061DFEA89F00B873AB /* JLLogEncoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLLogEncoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3E200A1DFEA89F00B873AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB3E200C1DFEA89F00B873AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +125,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CE0750E01E824A810040EF1C /* RuntimeLog */ = {
+			isa = PBXGroup;
+			children = (
+				CE0750E11E824A810040EF1C /* NSObject+logVarMethod.h */,
+				CE0750E21E824A810040EF1C /* NSObject+logVarMethod.m */,
+			);
+			path = RuntimeLog;
+			sourceTree = "<group>";
+		};
 		DB3E1FFD1DFEA89F00B873AB = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +159,7 @@
 		DB3E20081DFEA89F00B873AB /* JLLogEncoding */ = {
 			isa = PBXGroup;
 			children = (
+				CE0750E01E824A810040EF1C /* RuntimeLog */,
 				DB3E203C1DFEA8AF00B873AB /* extensionLib */,
 				DB3E200C1DFEA89F00B873AB /* AppDelegate.h */,
 				DB3E200D1DFEA89F00B873AB /* AppDelegate.m */,
@@ -483,6 +496,7 @@
 				DB3E200E1DFEA89F00B873AB /* AppDelegate.m in Sources */,
 				DB3E203F1DFEA8BF00B873AB /* NSDictionary+extension.m in Sources */,
 				DB3E200B1DFEA89F00B873AB /* main.m in Sources */,
+				CE0750E31E824A810040EF1C /* NSObject+logVarMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
