@@ -32,8 +32,8 @@
     NSString *subSpace = [self getSpaceWithLevel:level];
     NSString *space = [self getSpaceWithLevel:level - 1];
     NSMutableString *retString = [[NSMutableString alloc] init];
-    // 1、添加 （
-    [retString appendString:[NSString stringWithFormat:@"("]];
+    // 1、添加 [
+    [retString appendString:[NSString stringWithFormat:@"["]];
     // 2、添加 value
     [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if ([obj isKindOfClass:[NSString class]]) {
@@ -56,8 +56,11 @@
             [retString appendString:subString];
         }
     }];
-    // 3、添加 ）
-    [retString appendString:[NSString stringWithFormat:@"\n%@)", space]];
+    if ([retString hasSuffix:@","]) {
+        [retString deleteCharactersInRange:NSMakeRange(retString.length-1, 1)];
+    }
+    // 3、添加 ]
+    [retString appendString:[NSString stringWithFormat:@"\n%@]", space]];
     return retString;
 }
 

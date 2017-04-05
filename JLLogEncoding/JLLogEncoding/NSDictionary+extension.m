@@ -51,23 +51,26 @@
         if ([obj isKindOfClass:[NSString class]]) {
             NSString *value = (NSString *)obj;
             value = [value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-            NSString *subString = [NSString stringWithFormat:@"\n%@%@ = \"%@\";", subSpace, key, value];
+            NSString *subString = [NSString stringWithFormat:@"\n%@\"%@\" : \"%@\",", subSpace, key, value];
             [retString appendString:subString];
         } else if ([obj isKindOfClass:[NSDictionary class]]) {
             NSDictionary *dic = (NSDictionary *)obj;
             NSString *str = [dic descriptionWithLevel:level + 1];
-            str = [NSString stringWithFormat:@"\n%@%@ = %@;", subSpace, key, str];
+            str = [NSString stringWithFormat:@"\n%@\"%@\" : %@,", subSpace, key, str];
             [retString appendString:str];
         } else if ([obj isKindOfClass:[NSArray class]]) {
             NSArray *arr = (NSArray *)obj;
             NSString *str = [arr descriptionWithLocale:nil indent:level + 1];
-            str = [NSString stringWithFormat:@"\n%@%@ = %@;", subSpace, key, str];
+            str = [NSString stringWithFormat:@"\n%@\"%@\" : %@,", subSpace, key, str];
             [retString appendString:str];
         } else {
-            NSString *subString = [NSString stringWithFormat:@"\n%@%@ = %@;", subSpace, key, obj];
+            NSString *subString = [NSString stringWithFormat:@"\n%@\"%@\" : %@,", subSpace, key, obj];
             [retString appendString:subString];
         }
     }];
+    if ([retString hasSuffix:@","]) {
+        [retString deleteCharactersInRange:NSMakeRange(retString.length-1, 1)];
+    }
     // 3、添加 }
     [retString appendString:[NSString stringWithFormat:@"\n%@}", space]];
     return retString;
