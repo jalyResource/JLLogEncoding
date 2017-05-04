@@ -9,6 +9,8 @@
 #import "NSDictionary+extension.h"
 
 @implementation NSDictionary (extension)
+#ifdef DEBUG
+
 - (NSString *)description {
     return [self descriptionWithLevel:1];
 }
@@ -91,7 +93,7 @@
     return mustr;
 }
 
-
+#endif
 @end
 
 

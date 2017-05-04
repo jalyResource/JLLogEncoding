@@ -9,6 +9,8 @@
 #import "NSArray+extension.h"
 
 @implementation NSArray (extension)
+#ifdef DEBUG
+
 - (NSString *)description {
     return [self descriptionWithLevel:1];
 }
@@ -79,7 +81,7 @@
     return mustr;
 }
 
-
+#endif
 @end
 
 
