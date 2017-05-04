@@ -22,6 +22,9 @@
     return [self descriptionWithLevel:(int)level];
 }
 
+/**
+ * 非字典时，会引发崩溃
+ */
 - (NSString *)getUTF8String {
     if ([self isKindOfClass:[NSDictionary class]] == NO) {
         return @"";
