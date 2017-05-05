@@ -8,7 +8,7 @@
     
     
     
-##3、使用一下方法时，字典数据结构不对会引发崩溃
+##3、使用以下方法时，字典数据结构不对会引发崩溃
 ```
 - (NSString *)getUTF8String {
     if ([self isKindOfClass:[NSDictionary class]] == NO) {
