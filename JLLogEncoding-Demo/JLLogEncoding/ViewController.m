@@ -17,9 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSObject *obj = [NSObject new];
     NSDictionary *dic = @{
                           @"key1_0": @"可以显示中文了",
                           @"key1_1" : @"value1_1",
+                          @"obj" : obj,
                           @"key1_2" : @[
                                   @{
                                       @"list1" : @"我是list1"
