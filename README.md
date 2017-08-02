@@ -9,6 +9,7 @@
     
     
     
+
 ## 3、其它转码方式的缺点
 ```
 - (NSString *)getUTF8String {
