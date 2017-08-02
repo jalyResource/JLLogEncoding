@@ -7,8 +7,6 @@
 ## 2、使用方法
     将extension目录下的NSArray NSDictionary的扩展文件拖进工程即可
     
-    
-    
 
 ## 3、其它转码方式的缺点
 ```
