@@ -102,6 +102,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A624FD01F891245002EE0B7 /* JLLogEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */,
+				DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */,
+				DB3E20401DFEB87B00B873AB /* NSArray+extension.h */,
+				DB3E20411DFEB87B00B873AB /* NSArray+extension.m */,
+			);
+			path = JLLogEncoding;
+			sourceTree = "<group>";
+		};
 		24A736F0F2225F406CC5AE88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,8 +170,8 @@
 		DB3E20081DFEA89F00B873AB /* JLLogEncoding */ = {
 			isa = PBXGroup;
 			children = (
+				0A624FD01F891245002EE0B7 /* JLLogEncoding */,
 				CE0750E01E824A810040EF1C /* RuntimeLog */,
-				DB3E203C1DFEA8AF00B873AB /* extensionLib */,
 				DB3E200C1DFEA89F00B873AB /* AppDelegate.h */,
 				DB3E200D1DFEA89F00B873AB /* AppDelegate.m */,
 				DB3E200F1DFEA89F00B873AB /* ViewController.h */,
@@ -198,17 +209,6 @@
 				DB3E20301DFEA89F00B873AB /* Info.plist */,
 			);
 			path = JLLogEncodingUITests;
-			sourceTree = "<group>";
-		};
-		DB3E203C1DFEA8AF00B873AB /* extensionLib */ = {
-			isa = PBXGroup;
-			children = (
-				DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */,
-				DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */,
-				DB3E20401DFEB87B00B873AB /* NSArray+extension.h */,
-				DB3E20411DFEB87B00B873AB /* NSArray+extension.m */,
-			);
-			name = extensionLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
