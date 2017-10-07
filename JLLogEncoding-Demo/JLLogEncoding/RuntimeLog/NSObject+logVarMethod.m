@@ -7,7 +7,7 @@
 //
 
 #import "NSObject+logVarMethod.h"
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 
 //#define DEBUG 2
 
