@@ -5,7 +5,13 @@
 > 参考文章  [iOS 解决打印字典时，中文乱码问题](http://www.jianshu.com/p/7f0edba7c317)
 
 ## 2、使用方法
-    将extension目录下的NSArray NSDictionary的扩展文件拖进工程即可
+#### 1、cocoapods 
+	source 'https://github.com/jalyResource/JLLogEncoding.git'
+
+    pod 'JLLogEncoding'
+#### 2、手动添加文件
+    将 JLLogEncoding 目录下的 NSArray NSDictionary 的扩展文件拖进工程即可
+    ![pic](http://ouuzqdpag.bkt.clouddn.com/logEncoding_extension.png)
     
 
 ## 3、其它转码方式的缺点

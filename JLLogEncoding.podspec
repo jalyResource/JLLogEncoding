@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    JLLogEncoding 解决打印字典时，中文乱码问题。
                    DESC
 
   s.homepage     = "https://github.com/jalyResource/JLLogEncoding"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jalyResource/JLLogEncoding.git", :tag => "#{s.version}" }
+  s.source       = { :git => 'https://github.com/jalyResource/JLLogEncoding.git', :branch => "master", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
