@@ -11,9 +11,10 @@
     pod 'JLLogEncoding'
 #### 2、手动添加文件
     将 JLLogEncoding 目录下的 NSArray NSDictionary 的扩展文件拖进工程即可
-    ![pic](http://ouuzqdpag.bkt.clouddn.com/logEncoding_extension.png)
     
-
+![pic](http://ouuzqdpag.bkt.clouddn.com/logEncoding_extension.png)
+    
+    
 ## 3、其它转码方式的缺点
 ```
 - (NSString *)getUTF8String {
