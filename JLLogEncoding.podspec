@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "JLLogEncoding"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "解决打印字典时，中文乱码问题。"
 
   s.description  = <<-DESC

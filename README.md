@@ -6,7 +6,6 @@
 
 ## 2、使用方法
 #### 1、cocoapods 
-	source 'https://github.com/jalyResource/JLLogEncoding.git'
 
     pod 'JLLogEncoding'
 #### 2、手动添加文件
