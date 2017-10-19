@@ -6,26 +6,26 @@
 //  Copyright © 2016年 kongfz. All rights reserved.
 //
 
-#import "NSDictionary+extension.h"
+#import "NSDictionary+jlExtension.h"
 
-@implementation NSDictionary (extension)
+@implementation NSDictionary (jlExtension)
 #ifdef DEBUG
 
 - (NSString *)description {
-    return [self descriptionWithLevel:1];
+    return [self jl_descriptionWithLevel:1];
 }
 
 - (NSString *)descriptionWithLocale:(nullable id)locale {
-    return [self descriptionWithLevel:1];
+    return [self jl_descriptionWithLevel:1];
 }
 - (NSString *)descriptionWithLocale:(nullable id)locale indent:(NSUInteger)level {
-    return [self descriptionWithLevel:(int)level];
+    return [self jl_descriptionWithLevel:(int)level];
 }
 
 /**
  * 非字典时，会引发崩溃
  */
-- (NSString *)getUTF8String {
+- (NSString *)jl_getUTF8String {
     if ([self isKindOfClass:[NSDictionary class]] == NO) {
         return @"";
     }
@@ -45,13 +45,13 @@
  @param level 当前字典的层级，最少为 1，代表最外层字典
  @return 格式化的字符串
  */
-- (NSString *)descriptionWithLevel:(int)level {
-    NSString *subSpace = [self getSpaceWithLevel:level];
-    NSString *space = [self getSpaceWithLevel:level - 1];
+- (NSString *)jl_descriptionWithLevel:(int)level {
+    NSString *subSpace = [self jl_getSpaceWithLevel:level];
+    NSString *space = [self jl_getSpaceWithLevel:level - 1];
     NSMutableString *retString = [[NSMutableString alloc] init];
     // 1、添加 {
     [retString appendString:[NSString stringWithFormat:@"{"]];
-    // 2、添加 key = value;
+    // 2、添加 key : value;
     [self enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         if ([obj isKindOfClass:[NSString class]]) {
             NSString *value = (NSString *)obj;
@@ -60,7 +60,7 @@
             [retString appendString:subString];
         } else if ([obj isKindOfClass:[NSDictionary class]]) {
             NSDictionary *dic = (NSDictionary *)obj;
-            NSString *str = [dic descriptionWithLevel:level + 1];
+            NSString *str = [dic jl_descriptionWithLevel:level + 1];
             str = [NSString stringWithFormat:@"\n%@\"%@\" : %@,", subSpace, key, str];
             [retString appendString:str];
         } else if ([obj isKindOfClass:[NSArray class]]) {
@@ -88,7 +88,7 @@
  @param level 字典的层级
  @return 占位空格
  */
-- (NSString *)getSpaceWithLevel:(int)level {
+- (NSString *)jl_getSpaceWithLevel:(int)level {
     NSMutableString *mustr = [[NSMutableString alloc] init];
     for (int i=0; i<level; i++) {
         [mustr appendString:@"\t"];

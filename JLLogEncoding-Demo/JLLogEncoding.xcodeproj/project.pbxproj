@@ -19,8 +19,8 @@
 		DB3E20191DFEA89F00B873AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E20171DFEA89F00B873AB /* LaunchScreen.storyboard */; };
 		DB3E20241DFEA89F00B873AB /* JLLogEncodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20231DFEA89F00B873AB /* JLLogEncodingTests.m */; };
 		DB3E202F1DFEA89F00B873AB /* JLLogEncodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E202E1DFEA89F00B873AB /* JLLogEncodingUITests.m */; };
-		DB3E203F1DFEA8BF00B873AB /* NSDictionary+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */; };
-		DB3E20421DFEB87B00B873AB /* NSArray+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20411DFEB87B00B873AB /* NSArray+extension.m */; };
+		DB3E203F1DFEA8BF00B873AB /* NSDictionary+jlExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E203E1DFEA8BF00B873AB /* NSDictionary+jlExtension.m */; };
+		DB3E20421DFEB87B00B873AB /* NSArray+jlExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E20411DFEB87B00B873AB /* NSArray+jlExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A63070B1F983C2600BA96E0 /* JLLogEncoding.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = JLLogEncoding.podspec; path = ../JLLogEncoding.podspec; sourceTree = "<group>"; };
 		17A6F6EADE93B90075C07717 /* Pods-JLLogEncodingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingUITests/Pods-JLLogEncodingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3E643525F306080BB30C3308 /* Pods-JLLogEncodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingTests/Pods-JLLogEncodingTests.release.xcconfig"; sourceTree = "<group>"; };
 		4DF017D246BE1D44B515040E /* Pods-JLLogEncodingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingUITests/Pods-JLLogEncodingUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,10 +66,10 @@
 		DB3E202A1DFEA89F00B873AB /* JLLogEncodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLLogEncodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3E202E1DFEA89F00B873AB /* JLLogEncodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLLogEncodingUITests.m; sourceTree = "<group>"; };
 		DB3E20301DFEA89F00B873AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extension.h"; sourceTree = "<group>"; };
-		DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extension.m"; sourceTree = "<group>"; };
-		DB3E20401DFEB87B00B873AB /* NSArray+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+extension.h"; sourceTree = "<group>"; };
-		DB3E20411DFEB87B00B873AB /* NSArray+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+extension.m"; sourceTree = "<group>"; };
+		DB3E203D1DFEA8BF00B873AB /* NSDictionary+jlExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+jlExtension.h"; sourceTree = "<group>"; };
+		DB3E203E1DFEA8BF00B873AB /* NSDictionary+jlExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+jlExtension.m"; sourceTree = "<group>"; };
+		DB3E20401DFEB87B00B873AB /* NSArray+jlExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+jlExtension.h"; sourceTree = "<group>"; };
+		DB3E20411DFEB87B00B873AB /* NSArray+jlExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+jlExtension.m"; sourceTree = "<group>"; };
 		E492FA3EEE68CA645F4BE209 /* Pods-JLLogEncodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncodingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncodingTests/Pods-JLLogEncodingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F80C410769FD5BCD7A786058 /* Pods-JLLogEncoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLLogEncoding.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLLogEncoding/Pods-JLLogEncoding.release.xcconfig"; sourceTree = "<group>"; };
 		F897606BA253A060EE9703D1 /* libPods-JLLogEncodingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLLogEncodingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,10 +106,10 @@
 		0A624FD01F891245002EE0B7 /* JLLogEncoding */ = {
 			isa = PBXGroup;
 			children = (
-				DB3E203D1DFEA8BF00B873AB /* NSDictionary+extension.h */,
-				DB3E203E1DFEA8BF00B873AB /* NSDictionary+extension.m */,
-				DB3E20401DFEB87B00B873AB /* NSArray+extension.h */,
-				DB3E20411DFEB87B00B873AB /* NSArray+extension.m */,
+				DB3E203D1DFEA8BF00B873AB /* NSDictionary+jlExtension.h */,
+				DB3E203E1DFEA8BF00B873AB /* NSDictionary+jlExtension.m */,
+				DB3E20401DFEB87B00B873AB /* NSArray+jlExtension.h */,
+				DB3E20411DFEB87B00B873AB /* NSArray+jlExtension.m */,
 			);
 			path = JLLogEncoding;
 			sourceTree = "<group>";
@@ -148,6 +149,7 @@
 		DB3E1FFD1DFEA89F00B873AB = {
 			isa = PBXGroup;
 			children = (
+				0A63070B1F983C2600BA96E0 /* JLLogEncoding.podspec */,
 				DB3E20081DFEA89F00B873AB /* JLLogEncoding */,
 				DB3E20221DFEA89F00B873AB /* JLLogEncodingTests */,
 				DB3E202D1DFEA89F00B873AB /* JLLogEncodingUITests */,
@@ -491,10 +493,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3E20421DFEB87B00B873AB /* NSArray+extension.m in Sources */,
+				DB3E20421DFEB87B00B873AB /* NSArray+jlExtension.m in Sources */,
 				DB3E20111DFEA89F00B873AB /* ViewController.m in Sources */,
 				DB3E200E1DFEA89F00B873AB /* AppDelegate.m in Sources */,
-				DB3E203F1DFEA8BF00B873AB /* NSDictionary+extension.m in Sources */,
+				DB3E203F1DFEA8BF00B873AB /* NSDictionary+jlExtension.m in Sources */,
 				DB3E200B1DFEA89F00B873AB /* main.m in Sources */,
 				CE0750E31E824A810040EF1C /* NSObject+logVarMethod.m in Sources */,
 			);

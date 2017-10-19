@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (extension)
+@interface NSDictionary (jlExtension)
 
 @end

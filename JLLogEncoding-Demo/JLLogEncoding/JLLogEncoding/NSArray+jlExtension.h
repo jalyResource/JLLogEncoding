@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (extension)
+@interface NSArray (jlExtension)
 
 @end
