@@ -24,14 +24,16 @@
                           @"obj" : obj,
                           @"key1_2" : @[
                                   @{
-                                      @"list1" : @"我是list1"
+                                      @"list1" : @"我是list1 \0 list1"
                                    },
                                   @{
                                       @"list2" : @"我是list2"
                                    }
-                                  ]
+                                  ],
+                          @"key_3" : @"~^\\1\0name\0loriange/^~  end"
                           };
     NSLog(@"%@", dic);
+    
     
 }
 

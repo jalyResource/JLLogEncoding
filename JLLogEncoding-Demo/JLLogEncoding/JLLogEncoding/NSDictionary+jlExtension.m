@@ -55,7 +55,9 @@
     [self enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         if ([obj isKindOfClass:[NSString class]]) {
             NSString *value = (NSString *)obj;
-            value = [value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//            value = [value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            value = [value stringByReplacingOccurrencesOfString:@"\0" withString:@"\\0"];
+            
             NSString *subString = [NSString stringWithFormat:@"\n%@\"%@\" : \"%@\",", subSpace, key, value];
             [retString appendString:subString];
         } else if ([obj isKindOfClass:[NSDictionary class]]) {

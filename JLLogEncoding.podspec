@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |s|
   s.name         = "JLLogEncoding"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "解决打印字典时，中文乱码问题。"
 
   s.description  = <<-DESC
                     JLLogEncoding 解决打印字典时，中文乱码问题。
                    DESC
 
-  s.homepage     = "https://github.com/jalyResource/JLLogEncoding"
+  s.homepage     = "https://github.com/jalyResource/JLLogEncoding.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license      = "Apache License, Version 2.0"

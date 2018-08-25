@@ -40,7 +40,7 @@
     [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if ([obj isKindOfClass:[NSString class]]) {
             NSString *value = (NSString *)obj;
-            value = [value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            // value = [value stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
             NSString *subString = [NSString stringWithFormat:@"\n%@\"%@\",", subSpace, value];
             [retString appendString:subString];
         } else if ([obj isKindOfClass:[NSArray class]]) {
